@@ -12,12 +12,12 @@ st.write(
 instruction = st.text_input("Enter what you want your python code to do:")
 
 
-"""Normalize user input for simpler pattern matching.
+def preprocess_text(text):
+    """Normalize user input for simpler pattern matching.
 
     - Trims surrounding whitespace.
     - Converts to lowercase so keyword checks are case-insensitive.
 """
-def preprocess_text(text):
     return text.strip().lower()
 
 
