@@ -5,22 +5,17 @@ This project converts simple natural language instructions into executable Pytho
 
 Two implementations are included:
 
-1. Rule-based + basic NLP version for deterministic intent handling
-
-2. ML/DL-based NLP version using a TensorFlow neural network for intent classification
+1. Rule-based + basic NLP version for deterministic intent handling(Rule_based_code.py)
+2. ML/DL-based NLP version using a TensorFlow neural network for intent classification(ML_based_code.py)
 
 Both implementations generate Python code using interpretable, template-based logic and do not rely on external APIs.
-
-## Approach
-- Text preprocessing (normalization)
-- Rule-based intent detection
-- Regex-based entity extraction
-- Template-based Python code generation
-- Streamlit UI for interaction
 
 ## Technologies
 - Python
 - Streamlit
+- TensorFlow / Keras
 - Regular Expressions
+- NumPy, scikit-learn
+
 
 
