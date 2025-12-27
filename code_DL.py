@@ -184,7 +184,7 @@ class LogicCodeGenerator:
 # --- 2. STREAMLIT UI SETUP ---
 st.set_page_config(page_title="AI Code Gen")
 
-st.title("AI-Powered Python Code Generator")
+st.title("Python Code Generator")
 st.markdown("Enter a natural language command, and the Neural Network will generate the Python code for you.")
 
 # Sidebar for details
